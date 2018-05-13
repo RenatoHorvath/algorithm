@@ -21,7 +21,7 @@ public class JavaApplication2 {
      */
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Lines count : ");
+        System.out.print("Count of lines: ");
         int userInt = scan.nextInt();
         for (int i = 1; i <= userInt; i++){
             System.out.print(" ");
